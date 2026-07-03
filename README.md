@@ -39,6 +39,7 @@ A POST request sends product information to the backend.The backend stores it in
 2)Read
 const res = await API.get();
 The GET request retrieves all products from MongoDB.React displays them immediately.
+
 3)Update
 await API.put(`/${product._id}`,product);
 The PUT request updates an existing product.MongoDB modifies only the selected document.
